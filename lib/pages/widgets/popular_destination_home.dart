@@ -47,7 +47,7 @@ class PopularDestinationHome extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
-                          width: 110,
+                          width: 136,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(6),
                             image: DecorationImage(
