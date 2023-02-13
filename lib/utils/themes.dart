@@ -24,3 +24,9 @@ TextStyle secondaryBoldTextStyle = GoogleFonts.poppins(
   fontWeight: FontWeight.w600,
   color: secondaryColor,
 );
+
+// Assets
+String imgCoffeeAsset = 'assets/img/coffee-cup.png';
+String imgHumbergerAsset = 'assets/img/hamburger.png';
+String imgHotelAsset = 'assets/img/hotel.png';
+String imgTransportationAsset = 'assets/img/transportation.png';
