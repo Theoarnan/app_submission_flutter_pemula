@@ -23,7 +23,7 @@ class _HeaderHomeWidgetState extends State<HeaderHomeWidget> {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      contentPadding: const EdgeInsets.all(10),
+      contentPadding: const EdgeInsets.all(10).copyWith(right: 16),
       leading: CircleAvatar(
         backgroundColor: secondaryColor,
         backgroundImage: const NetworkImage(
@@ -32,22 +32,30 @@ class _HeaderHomeWidgetState extends State<HeaderHomeWidget> {
         onBackgroundImageError: (exception, stackTrace) =>
             Text('NN', style: regularTextStyle),
       ),
-      title: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            'Welcome Back!',
-            style: secondaryTextStyle,
-          ),
-          const SizedBox(
-            height: 3,
-          ),
-          Text(
-            'Caroline NW',
-            overflow: TextOverflow.clip,
-            style: regularTextStyle.copyWith(fontSize: 18),
-          ),
-        ],
+      title: SizedBox(
+        height: 46,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Welcome Back!',
+              style: secondaryTextStyle.copyWith(fontSize: 14),
+            ),
+            const SizedBox(
+              height: 1,
+            ),
+            Expanded(
+              child: Text(
+                'Arnan A Theopilus',
+                overflow: TextOverflow.clip,
+                style: regularBoldTextStyle.copyWith(
+                  fontSize: 20,
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
       trailing: Wrap(
         children: [
