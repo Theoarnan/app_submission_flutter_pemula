@@ -37,10 +37,10 @@ class HomePage extends StatelessWidget {
                     ContentHome(),
                     // Popular Destination
                     SizedBox(height: 6),
-                    PopularDestinationHome(),
+                    TravelGroupHome(),
                     // Travel Group
                     SizedBox(height: 6),
-                    TravelGroupHome()
+                    PopularDestinationHome(),
                   ],
                 ),
               ),

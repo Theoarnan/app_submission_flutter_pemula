@@ -39,7 +39,7 @@ class TravelGroupHome extends StatelessWidget {
                   child: Row(
                     children: [
                       Container(
-                        width: 110,
+                        width: 114,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(6),
                           image: DecorationImage(
@@ -66,7 +66,7 @@ class TravelGroupHome extends StatelessWidget {
                           ),
                           Text(
                             'Due: 20th Feb, 2023',
-                            style: secondaryTextStyle.copyWith(fontSize: 14),
+                            style: secondaryTextStyle.copyWith(fontSize: 12),
                           ),
                           const SizedBox(height: 10),
                           Expanded(
@@ -75,6 +75,7 @@ class TravelGroupHome extends StatelessWidget {
                               backgroundImage: const NetworkImage(
                                 'https://thispersondoesnotexist.com/image',
                               ),
+                              radius: 16,
                               onBackgroundImageError: (exception, stackTrace) =>
                                   Text('NN', style: regularTextStyle),
                             ),
