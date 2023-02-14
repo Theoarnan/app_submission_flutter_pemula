@@ -3,8 +3,10 @@ import 'package:flutter/material.dart';
 
 class TitleSectionHome extends StatelessWidget {
   final String titleSection;
+  final bool? withRightButton;
 
-  const TitleSectionHome({Key? key, required this.titleSection})
+  const TitleSectionHome(
+      {Key? key, required this.titleSection, this.withRightButton = true})
       : super(key: key);
 
   @override
@@ -18,10 +20,12 @@ class TitleSectionHome extends StatelessWidget {
             titleSection,
             style: regularBoldTextStyle.copyWith(fontSize: 20),
           ),
-          Text(
-            'View All',
-            style: secondaryTextStyle.copyWith(fontSize: 16),
-          ),
+          withRightButton!
+              ? Text(
+                  'View All',
+                  style: secondaryTextStyle.copyWith(fontSize: 16),
+                )
+              : const SizedBox.shrink(),
         ],
       ),
     );
