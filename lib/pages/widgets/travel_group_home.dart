@@ -1,4 +1,3 @@
-import 'package:app_submission_flutter_pemula/models/acommodation_model.dart';
 import 'package:app_submission_flutter_pemula/models/travel_accomodation_model.dart';
 import 'package:app_submission_flutter_pemula/pages/widgets/title_section_home.dart';
 import 'package:app_submission_flutter_pemula/utils/themes.dart';
