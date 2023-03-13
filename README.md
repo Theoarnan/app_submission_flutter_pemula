@@ -11,6 +11,8 @@ This is an application that displays accommodation that makes it easy for travel
 
 ![](https://cdn-icons-png.flaticon.com/512/541/541415.png | width=100)
 
+<img src="https://mma.prnewswire.com/media/1513369/Educative_Logo.jpg"  width="60%" height="30%">
+
 where the content in th
 
 #### Simple Features
