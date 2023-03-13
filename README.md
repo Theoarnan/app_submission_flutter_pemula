@@ -9,7 +9,7 @@ This is a project for Submission Dicoding Belajar Membuat Aplikasi Flutter untuk
 
 This is an application that displays accommodation that makes it easy for travelers to see and choose their vacation destinations.
 
-<img src="https://cdn-icons-png.flaticon.com/512/541/541415.png"  width="5%" height="6%">
+<img src="https://cdn-icons-png.flaticon.com/512/541/541415.png"  width="4%" height="4%"><img src="https://cdn-icons-png.flaticon.com/512/541/541415.png"  width="4%" height="4%"><img src="https://cdn-icons-png.flaticon.com/512/541/541415.png"  width="4%" height="4%"><img src="https://cdn-icons-png.flaticon.com/512/541/541415.png"  width="4%" height="4%"><img src="https://cdn-icons-png.flaticon.com/512/541/541415.png"  width="4%" height="4%">
 
 #### Simple Features
 - Splash Page
