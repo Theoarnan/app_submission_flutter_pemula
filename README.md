@@ -1,16 +1,41 @@
-# app_submission_flutter_pemula
 
-A new Flutter project.
+# Submission Dicoding
 
-## Getting Started
+This is a project for Submission Dicoding Belajar Membuat Aplikasi Flutter untuk Pemula 2023.
+ 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## To Travellers
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This is an application that displays accommodation that makes it easy for travelers to see and choose their vacation destinations.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](https://cdn-icons-png.flaticon.com/512/541/541415.png | width=100)
+
+where the content in th
+
+#### Simple Features
+- Splash Page
+- Home Page
+  - Category Accomodation
+  - List Accomodation
+  - Popular Accomodation
+  - Travel Group
+- Detail Accomodation
+- Booking Page
+
+#### Dependencies
+- [Google Font](https://pub.dev/packages/google_fonts)
+- [Flutter Toast](https://pub.dev/packages/fluttertoast)
+- [Rating Bar](https://pub.dev/packages/flutter_rating_bar)
+- [intl](https://pub.dev/packages/intl)
+
+## Screenshots
+
+![App Screenshot](https://drive.google.com/uc?export=view&id=1AX_3loKmjEUIrSPh1efKOckUwqz2Kbi4)
+
+
+## Authors
+
+- [@theoarnan](https://www.github.com/theoarnan)
+
+
