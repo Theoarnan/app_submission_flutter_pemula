@@ -27,7 +27,7 @@ class _HeaderHomeWidgetState extends State<HeaderHomeWidget> {
       leading: CircleAvatar(
         backgroundColor: secondaryColor,
         backgroundImage: const NetworkImage(
-          'https://thispersondoesnotexist.com/image',
+          'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         ),
         onBackgroundImageError: (exception, stackTrace) =>
             Text('NN', style: regularTextStyle),

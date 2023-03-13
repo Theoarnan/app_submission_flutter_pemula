@@ -1,4 +1,5 @@
 import 'package:app_submission_flutter_pemula/models/acommodation_model.dart';
+import 'package:app_submission_flutter_pemula/pages/booking_page.dart';
 import 'package:app_submission_flutter_pemula/pages/widgets/title_section_home.dart';
 import 'package:app_submission_flutter_pemula/utils/custom_scroll.dart';
 import 'package:app_submission_flutter_pemula/utils/themes.dart';
@@ -69,7 +70,12 @@ class DetailPage extends StatelessWidget {
                   horizontal: 60,
                 ),
               ),
-              onPressed: () {},
+              onPressed: () =>
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                return BookingPage(
+                  dataAcomodations: data,
+                );
+              })),
               child: Text(
                 'Booking Now',
                 textAlign: TextAlign.center,
@@ -327,7 +333,8 @@ class DetailPage extends StatelessWidget {
                     height: 6,
                   ),
                   const TitleSectionHome(titleSection: 'Reviews'),
-                  Expanded(
+                  SizedBox(
+                    height: 200,
                     child: ListView.builder(
                       itemCount: 3,
                       shrinkWrap: true,
@@ -340,7 +347,7 @@ class DetailPage extends StatelessWidget {
                             leading: CircleAvatar(
                               backgroundColor: secondaryColor,
                               backgroundImage: const NetworkImage(
-                                'https://thispersondoesnotexist.com/image',
+                                'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                               ),
                               onBackgroundImageError: (exception, stackTrace) =>
                                   Text('NN', style: regularTextStyle),
