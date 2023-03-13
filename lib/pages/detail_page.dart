@@ -1,4 +1,5 @@
 import 'package:app_submission_flutter_pemula/models/acommodation_model.dart';
+import 'package:app_submission_flutter_pemula/pages/booking_page.dart';
 import 'package:app_submission_flutter_pemula/pages/widgets/title_section_home.dart';
 import 'package:app_submission_flutter_pemula/utils/custom_scroll.dart';
 import 'package:app_submission_flutter_pemula/utils/themes.dart';
@@ -69,7 +70,12 @@ class DetailPage extends StatelessWidget {
                   horizontal: 60,
                 ),
               ),
-              onPressed: () {},
+              onPressed: () =>
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                return BookingPage(
+                  dataAcomodations: data,
+                );
+              })),
               child: Text(
                 'Booking Now',
                 textAlign: TextAlign.center,
@@ -327,7 +333,8 @@ class DetailPage extends StatelessWidget {
                     height: 6,
                   ),
                   const TitleSectionHome(titleSection: 'Reviews'),
-                  Expanded(
+                  SizedBox(
+                    height: 100,
                     child: ListView.builder(
                       itemCount: 3,
                       shrinkWrap: true,
