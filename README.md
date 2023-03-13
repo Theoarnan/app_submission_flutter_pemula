@@ -9,7 +9,7 @@ This is a project for Submission Dicoding Belajar Membuat Aplikasi Flutter untuk
 
 This is an application that displays accommodation that makes it easy for travelers to see and choose their vacation destinations.
 
-<img src="[https://mma.prnewswire.com/media/1513369/Educative_Logo.jpg](https://cdn-icons-png.flaticon.com/512/541/541415.png)"  width="50%" height="60%">
+<img src="https://cdn-icons-png.flaticon.com/512/541/541415.png"  width="50%" height="60%">
 
 #### Simple Features
 - Splash Page
