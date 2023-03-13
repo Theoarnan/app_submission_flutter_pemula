@@ -1,4 +1,5 @@
 import 'package:app_submission_flutter_pemula/models/acommodation_model.dart';
+import 'package:app_submission_flutter_pemula/pages/home_page.dart';
 import 'package:app_submission_flutter_pemula/utils/themes.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -77,12 +78,12 @@ class _BookingPageState extends State<BookingPage> with RestorationMixin {
               horizontal: 60,
             ),
           ),
-          onPressed: () =>
-              Navigator.push(context, MaterialPageRoute(builder: (context) {
-            return BookingPage(
-              dataAcomodations: data,
-            );
-          })),
+          onPressed: () {
+            Navigator.pushAndRemoveUntil(context,
+                MaterialPageRoute(builder: (context) {
+              return HomePage();
+            }), (route) => false);
+          },
           child: Text(
             'Continue Booking',
             textAlign: TextAlign.center,

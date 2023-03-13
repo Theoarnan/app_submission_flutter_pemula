@@ -73,7 +73,7 @@ class TravelGroupHome extends StatelessWidget {
                             child: CircleAvatar(
                               backgroundColor: secondaryColor,
                               backgroundImage: const NetworkImage(
-                                'https://thispersondoesnotexist.com/image',
+                                'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                               ),
                               radius: 16,
                               onBackgroundImageError: (exception, stackTrace) =>
