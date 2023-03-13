@@ -334,7 +334,7 @@ class DetailPage extends StatelessWidget {
                   ),
                   const TitleSectionHome(titleSection: 'Reviews'),
                   SizedBox(
-                    height: 100,
+                    height: 200,
                     child: ListView.builder(
                       itemCount: 3,
                       shrinkWrap: true,
@@ -347,7 +347,7 @@ class DetailPage extends StatelessWidget {
                             leading: CircleAvatar(
                               backgroundColor: secondaryColor,
                               backgroundImage: const NetworkImage(
-                                'https://thispersondoesnotexist.com/image',
+                                'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                               ),
                               onBackgroundImageError: (exception, stackTrace) =>
                                   Text('NN', style: regularTextStyle),

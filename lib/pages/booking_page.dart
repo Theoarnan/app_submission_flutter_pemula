@@ -83,6 +83,9 @@ class _BookingPageState extends State<BookingPage> with RestorationMixin {
                 MaterialPageRoute(builder: (context) {
               return HomePage();
             }), (route) => false);
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+              content: Text("Success you booking - ${data.acomodationName} "),
+            ));
           },
           child: Text(
             'Continue Booking',
