@@ -1,4 +1,4 @@
-import 'package:app_submission_flutter_pemula/pages/home_page.dart';
+import 'package:app_submission_flutter_pemula/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'To Traveling',
+      title: 'To Traveller',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: const SplashPage(),
     );
   }
 }
